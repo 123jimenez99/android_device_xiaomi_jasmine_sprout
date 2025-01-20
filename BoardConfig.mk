@@ -27,6 +27,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/jasmine_sprout
+
 # Target CPU micro-architecture details
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
